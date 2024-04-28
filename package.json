@@ -1,14 +1,18 @@
 {
-  "name": "middlewares-(3.1)",
+  "name": "middlewares",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon ./src/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
